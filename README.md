@@ -1,7 +1,7 @@
 # MernStack
 1) Middleware
-2) JWT (Refresh Token , Access Token)
-3) Session
-4) Cookies
-5) Local Storage
-6) Session Storage
+2) JWT , Session , Cookies , Local Storage , Session Storage.
+3) Authentication vs Authorization.
+4) 
+5) 
+6) 
