@@ -5,3 +5,13 @@ so , how does jwt works ?
 whenever clint tries to log in to the server to access some informatino and when the user is able to authenticate itself , the server generate a jwt token for the clien.
 the client store it in local storage or cookie.for every subsequent request which need authentication , the client send the jwt in the request headers .the server validates the token by checking the signature and
 decoding the payload.
+
+Session Based Authentication used session and is stateful . and jwt is prefereed more over this because jwt is more safe.
+cookies and servers helps in enhancing the user experience by remebering the user information like it is done by e-commerce platforms to store ur login information
+so that you don't have to enter it every time you visit the website.it is stored on the client side , and every request the client makes to the server , it is
+included in the http request. it is typically of very small size. but cookies aren't perfect because they can be tempered , that's why it is preferred to not store any sen
+sitive information in it.that's where session comes in.
+
+if cookies are like notes in ur browser , then session is like a private conversation between your server . The server assign a unique session id to each user , which is
+often stored in a cookie. The cookie only stores the session id , the actual data is present on the server side only.Used to manage shopping carts on session side.
+so, session are often more secure than cookies because it is stored on the server side , but the problem here is that it gives issue of scalability.
