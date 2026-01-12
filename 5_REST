@@ -1,4 +1,5 @@
-The full form of REST is Representation State Transfer (API) Application Programming Interface . It is used for communicatino between two system , where it allows
+The full form of REST is Representation State Transfer (API) Application Programming Interface . REST is a api which follow a set of rules to communicate with each other.
+It is used for communicatino between two system , where it allows
 client to request data to the server and server can sent the data to the client in a structured format.so , 
 representation -> data is presented in the form of json.
 state -> current condition / data of a resource.
@@ -8,3 +9,10 @@ Now , rest apis are stateless. they are stateless because the request sent from 
 the requests to the server.
 
 Methods of rest apis -> we do crud operations here . means we create a resource , read a resource , update a resource and delete a resource.
+
+API -> Application Programming Interface . It is a bridge that allows two applications to talk to each other. so, basically , frontend makes a request ,
+api processes the request , and backend sends the response. wihout rest apis , the response is sent in the form of html which is not appropriate.
+
+Now , there is a slight difference between rest apis and restful apis . 
+a rest api is a general term while the working of the restful apis is completely based on the rest principles.
+
