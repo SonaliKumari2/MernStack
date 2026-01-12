@@ -1,0 +1,4 @@
+CORS (Cross Origin Resource Sharing) helps in handling the cross origin request.
+And it is done such that other websites cannot perform any malicious actions on others.
+what is origin ? now , let's suppose http://localhost:3000 trying to access http://localhost:8080 , this is cross origin . origin is a combination of protocol(http) ,hostname (www.example.com) ,and port (8080)
+let's suppose your frontend is running on http://localhost:3000 and your node.js backend is on http://localhost:5000 , then the browser will normally block requests from one another.
