@@ -1,1 +1,10 @@
+The full form of REST is Representation State Transfer (API) Application Programming Interface . It is used for communicatino between two system , where it allows
+client to request data to the server and server can sent the data to the client in a structured format.so , 
+representation -> data is presented in the form of json.
+state -> current condition / data of a resource.
+transfer -> data is transferred between client and server.
 
+Now , rest apis are stateless. they are stateless because the request sent from a client to a server will contain all the information that is required to understand
+the requests to the server.
+
+Methods of rest apis -> we do crud operations here . means we create a resource , read a resource , update a resource and delete a resource.
