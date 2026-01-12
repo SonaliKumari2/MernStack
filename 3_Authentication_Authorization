@@ -1,2 +1,3 @@
 Authentication is about proving who you are . It can be done by  using passwords.Authorization means deciding what you are allowed to do. like let's suppose you are creating an application which contains various dashboards
 like your college websites , now different roles are given , like teachers can access some dashboards which students can't , this is authorization. It like determines whether you are admin or buyer or seller.
+So, first authentication is done , then authorization is done. so , basically if you are a buyer in flipkart, then you can't change the price of the product on your own.
