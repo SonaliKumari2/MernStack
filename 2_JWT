@@ -15,3 +15,10 @@ sitive information in it.that's where session comes in.
 if cookies are like notes in ur browser , then session is like a private conversation between your server . The server assign a unique session id to each user , which is
 often stored in a cookie. The cookie only stores the session id , the actual data is present on the server side only.Used to manage shopping carts on session side.
 so, session are often more secure than cookies because it is stored on the server side , but the problem here is that it gives issue of scalability.
+
+
+Local Storage vs Session Storage.
+Local storage is present on the client side and not automatically sent to the server with each request . Session storage is also client side only and not sent to the server.
+Cookies can be accessed both by the client and the server and sent with each HTTP request making it suitable for session managment.so, local storage can be used for storing user preferences permanently.
+and session storage can be used for storing the data which will be needed only in one session. whereas cookies can be used to store session id , so it can be used for authentication.
+
