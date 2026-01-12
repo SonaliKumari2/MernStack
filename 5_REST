@@ -15,4 +15,6 @@ api processes the request , and backend sends the response. wihout rest apis , t
 
 Now , there is a slight difference between rest apis and restful apis . 
 a rest api is a general term while the working of the restful apis is completely based on the rest principles.
+Restful apis strictly follows rest constraints where rest does not follow.so rest apis may violate one or another constraint.
+
 
