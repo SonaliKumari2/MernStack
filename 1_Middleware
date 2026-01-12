@@ -1,3 +1,6 @@
+Middleware basically comes between the request and response cycle and proccesse the request before it reaches the server and processes the response before it reaches to the client.
+It is used in authentication and logging.
+
 ✅ 1. Middleware (Definition)
 
 Middleware is software that intercepts a request before it reaches your main application logic during the request–response cycle.
