@@ -3,5 +3,5 @@
 2) JWT , Session , Cookies , Local Storage , Session Storage.
 3) Authentication vs Authorization.
 4) CORS (Cross Origin Resource Sharing)
-5) 
+5) REST APIs vs RESTFul APIs.
 6) 
