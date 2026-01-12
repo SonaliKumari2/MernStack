@@ -1,0 +1,113 @@
+✅ 1. Middleware (Definition)
+
+Middleware is software that intercepts a request before it reaches your main application logic during the request–response cycle.
+
+It can:
+
+Inspect the request
+
+Modify the request or response
+
+Validate or authenticate
+
+Block the request
+
+Or pass it to the next handler
+
+✅ 2. Why Middleware Exists (Purpose)
+
+Middleware allows common functionality to be handled in a centralized and reusable way, such as:
+
+Security
+
+Logging
+
+Authentication
+
+Rate limiting
+
+Request validation
+
+CORS
+
+Error handling
+
+It keeps the main application logic clean.
+
+✅ 3. How Middleware Works (General Behavior)
+
+A middleware function typically:
+
+Receives the request
+
+Performs some processing
+
+Either:
+
+returns a response, OR
+
+calls the next middleware/handler → next()
+
+Middleware executes in a chain, one after another.
+
+✅ 4. Middleware in Express.js (If asked specifically)
+
+In Node/Express:
+
+function middleware(req, res, next) {
+    // code here
+    next(); // pass to next middleware
+}
+
+
+Parameters:
+
+req → request object
+
+res → response object
+
+next() → calls next middleware in chain
+
+✅ 5. Common Interview Use Cases of Middleware
+
+Middleware is used for:
+
+🔹 1. Rate Limiting
+
+Check how many requests a user has made and block if limit exceeded.
+
+🔹 2. Authentication
+
+Verify JWT token, API key, session cookie.
+
+🔹 3. Logging
+
+Record incoming requests for monitoring/analytics.
+
+🔹 4. Authorization
+
+Verify if user has permission to access an endpoint.
+
+🔹 5. Input Validation
+
+Check if request body/query params are correct.
+
+🔹 6. Security Checks
+
+Prevent SQL injection, XSS, CSRF.
+
+🔹 7. CORS Handling
+
+Allow cross-origin requests.
+
+🔹 8. Compression
+
+Gzip responses.
+
+Perfect use-case explanation in interviews.
+
+✅ 6. Where Middleware Sits in Architecture
+Client → Load Balancer → Middleware → Controller/Route Handler → DB
+
+
+Middleware runs before application business logic.
